@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #37050e, #782b1e, #b3601c, #dca106, #ebeb12);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
+    color: white;
+    background-image: linear-gradient(to right top, #37051f, #6d192e, #a23832, #ce632a, #eb9612);
+}
