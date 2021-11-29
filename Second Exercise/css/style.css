@@ -17,10 +17,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 2em;
     width: 60%;
     height: 60%;
-    font-size: 3.5em;
-    letter-spacing: 0.1em;
+    font-size: 1.5em;
     color: white;
     background-image: linear-gradient(to right top, #37051f, #6d192e, #a23832, #ce632a, #eb9612);
 }
+
+/* Colors */
+.player-number,
+.choice {
+    color: #dca106;
+}
+
+.sum {
+    color: black;
+}
+
+.pc-number {
+    color: red;
+}
+/* End Colors */
